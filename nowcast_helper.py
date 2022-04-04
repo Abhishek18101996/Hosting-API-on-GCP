@@ -214,7 +214,7 @@ def run_model(data, model_path, scale, model_type):
     try:
         if model_type == 'gan':
             PROJECT_NAME = 'trim-odyssey-345315'
-            CREDENTIALS = 'trim-odyssey-345315-19bfafdb90a1.json'
+            CREDENTIALS = 'trim-odyssey-345315-6caadfaff75a.json'
             MODEL_PATH = 'gs://bda_assignment_sevir-s22/gan_generator.h5'
             FS = gcsfs.GCSFileSystem(project=PROJECT_NAME,token=CREDENTIALS)
            
