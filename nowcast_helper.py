@@ -72,7 +72,7 @@ def filterCatalog(lat, lon, radius, time_utc, catalog_path, closest_radius):
 def readData(filename, fileindex, data_path):
     # file = os.path.join(data_path, filename)
     PROJECT_NAME = 'trim-odyssey-345315'
-    CREDENTIALS = 'trim-odyssey-345315-19bfafdb90a1.json'
+    CREDENTIALS = 'trim-odyssey-345315-6caadfaff75a.json'
     MODEL_PATH = 'gs://bda_assignment_sevir-s22/SEVIR_VIL_STORMEVENTS_2019_0101_0630.h5'
     
 
